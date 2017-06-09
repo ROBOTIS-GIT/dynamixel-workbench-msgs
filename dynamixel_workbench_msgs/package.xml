@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package>
-  <name>dynamixel-workbench-msgs</name>
+  <name>dynamixel_workbench_msgs</name>
   <version>0.1.5</version>
   <description>
-    dynamixel-workbench-msgs package
+    dynamixel_workbench_msgs package
     This package includes ROS messages and services for dynamixel-workbench packages</description>
   <license>BSD</license>
   <author email="thlim@robotis.com">Darby Lim</author>

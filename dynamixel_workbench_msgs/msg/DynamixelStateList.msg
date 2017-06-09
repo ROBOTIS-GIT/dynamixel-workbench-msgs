@@ -1,4 +1,4 @@
 # Published by dynamixel_workbench_controllers
-# MotorState array
+# DynamixelState array
 
-MotorState[] motor_states
+DynamixelState[] dynamixel_states

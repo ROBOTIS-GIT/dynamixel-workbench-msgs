@@ -32,15 +32,15 @@ add_message_files(
 
   DynamixelState.msg
   DynamixelStateList.msg
-  DynamixelCommand.msg
-  WorkbenchParam.msg
+  DynamixelInfo.msg
 )
 
 add_service_files(
   FILES
   SetPosition.srv
   SetDirection.srv
-  GetWorkbenchParam.srv
+  GetDynamixelInfo.srv
+  DynamixelCommand.srv
 )
 
 generate_messages(

@@ -23,6 +23,7 @@ uint32 velocity_limit
 uint32 max_position_limit
 uint32 min_position_limit
 uint8  shutdown
+
 uint8  torque_enable
 uint8  led
 uint8  status_return_level

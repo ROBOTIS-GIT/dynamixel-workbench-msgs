@@ -1,9 +1,6 @@
 # Published by dynamixel_workbench_single_manager_gui
 # This message sends information of dynamixel_workbench_single_manager's parameter to dynamixel_workbench_single_manager_gui
 
-DynamixelLoadInfo load_info
-
-string model_name
-uint16 model_number
-uint8 model_id
-
+string device_name
+uint64 baud_rate
+float32 protocol_version

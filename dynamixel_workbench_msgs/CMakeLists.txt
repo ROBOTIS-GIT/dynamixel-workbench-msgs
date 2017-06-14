@@ -33,6 +33,7 @@ add_message_files(
   DynamixelState.msg
   DynamixelStateList.msg
   DynamixelInfo.msg
+  DynamixelLoadInfo.msg
 )
 
 add_service_files(

@@ -17,18 +17,18 @@ find_package(catkin REQUIRED COMPONENTS
 ################################################################################
 add_message_files(
   FILES
-  DynamixelAX.msg
-  DynamixelRX.msg
-  DynamixelMX.msg
-  DynamixelMX64.msg
-  DynamixelMX106.msg
-  DynamixelEX.msg
-  DynamixelXL.msg
-  DynamixelXL320.msg
-  DynamixelXM.msg
-  DynamixelXH.msg
-  DynamixelPro.msg
-  DynamixelProL42.msg
+  AX.msg
+  RX.msg
+  MX.msg
+  MX64.msg
+  MX106.msg
+  EX.msg
+  XL.msg
+  XL320.msg
+  XM.msg
+  XH.msg
+  PRO.msg
+  PROL42.msg
 
   DynamixelState.msg
   DynamixelStateList.msg
@@ -38,8 +38,8 @@ add_message_files(
 
 add_service_files(
   FILES
-  SetPosition.srv
-  SetDirection.srv
+  JointCommand.srv
+  WheelCommand.srv
   GetDynamixelInfo.srv
   DynamixelCommand.srv
 )

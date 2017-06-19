@@ -1,6 +1,6 @@
 # Published by dynamixel_workbench_single_manager and Subscribed by dynamixel_workbench_single_manager_gui
-# This message is compatible with control table of Dynamixel MX-12 and MX-28 Series (MX-12W, MX-28T/R, MX-28AT/AR)
-# and it is linked to MX_12W.device, MX_28.device in dynamixel_workbench_toolbox/dynamixel/MX folder
+# This message is compatible with control table of Dynamixel MX-106 Series (MX-106)
+# and it is linked to MX-106.device in dynamixel_workbench_toolbox/dynamixel/MX folder
 # If you want to specific information about control table, please follow the link (http://support.robotis.com/en/)
 
 int64 model_number
@@ -10,6 +10,7 @@ int64 baud_rate
 int64 return_delay_time
 int64 cw_angle_limit
 int64 ccw_angle_limit
+int64 drive_mode
 int64 the_highest_limit_temperature
 int64 the_lowest_limit_voltage
 int64 the_highest_limit_voltage
@@ -36,4 +37,7 @@ bool registered
 bool moving
 bool lock
 int64 punch
+int64 current
+bool torque_control_mode_enable
+int64 goal_torque
 int64 goal_acceleration

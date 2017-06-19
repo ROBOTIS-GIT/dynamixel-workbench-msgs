@@ -20,15 +20,15 @@ add_message_files(
   AX.msg
   RX.msg
   MX.msg
-  MX64.msg
-  MX106.msg
+#  MX64.msg
+#  MX106.msg
   EX.msg
   XL.msg
-  XL320.msg
+#  XL320.msg
   XM.msg
   XH.msg
   PRO.msg
-  PROL42.msg
+#  PROL42.msg
 
   DynamixelState.msg
   DynamixelStateList.msg

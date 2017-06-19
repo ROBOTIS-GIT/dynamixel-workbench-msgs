@@ -2,8 +2,8 @@
 # This service sends motor position with different unit (radian and raw value)
 
 string unit
-float64 pan_pos
-float64 tilt_pos
+float32 pan_pos
+float32 tilt_pos
 ---
-float64 pan_pos
-float64 tilt_pos
+float32 pan_pos
+float32 tilt_pos

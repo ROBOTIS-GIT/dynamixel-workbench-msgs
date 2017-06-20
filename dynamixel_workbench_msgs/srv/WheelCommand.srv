@@ -1,8 +1,8 @@
 # Server is dynamixel_workbench_tutorials and Client is dynamixel_workbench_controllers
 # This service sends motor velocity
 
-float64 right_wheel_velocity
-float64 left_wheel_velocity
+float32 right_vel
+float32 left_vel
 ---
-float64 right_wheel_velocity
-float64 left_wheel_velocity
+float32 right_vel
+float32 left_vel

@@ -1,5 +1,4 @@
-# Published by dynamixel_workbench_controllers
-# This message represents status of Dynamixels in present.
+# This message includes basic data of dynamixel
 
 string model_name
 uint8  id

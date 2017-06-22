@@ -1,5 +1,5 @@
-# Publised by dynamixel_workbench_single_manager_gui and Subscribed by dynamixel_workbench_single_manager
-# for changing value of address in a Dynamixel
+# It is Served by 'single_dynamixel_monitor' node
+# This message is used to send command to dynamixel
 
 string command
 

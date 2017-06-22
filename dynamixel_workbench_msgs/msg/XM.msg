@@ -1,6 +1,7 @@
-# Published by dynamixel_workbench_single_manager and Subscribed by dynamixel_workbench_single_manager_gui
-# This message is compatible with control table of Dynamixel XM Series (XM430-S210-T/R, XM430-W350-T/R)
-# and it is linked to XM430_W210.device and XM430_S350.device in dynamixel_workbench_toolbox/dynamixel/models/XM folder
+# It is Published by 'single_dynamixel_monitor' node
+# It is Subscribed by 'dynamixel_workbench_single_manager_gui/qnode' node
+# This message is compatible with control table of Dynamixel XM Series (XM430-W210-T/R, XM430-W350-T/R)
+# It is linked to 'XM430_W210.device' and 'XM430_W350.device' in dynamixel_workbench_toolbox/dynamixel/models/XM
 # If you want to specific information about control table, please follow the link (http://support.robotis.com/en/)
 
 uint16 model_number
@@ -10,6 +11,7 @@ uint8  baud_rate
 uint8  return_delay_time
 uint8  drive_mode
 uint8  operating_mode
+uint8  secondary_id
 uint8  protocol_version
 uint32 homing_offset
 uint32 moving_threshold
@@ -36,6 +38,7 @@ uint16 position_i_gain
 uint16 position_p_gain
 uint16 feedforward_2nd_gain
 uint16 feedforward_1st_gain
+int16  bus_watchdog
 int16  goal_pwm
 int16  goal_current
 int32  goal_velocity

@@ -1,5 +1,4 @@
-# Published by dynamixel_workbench_single_manager_gui
-# This message sends information of dynamixel_workbench_single_manager's parameter to dynamixel_workbench_single_manager_gui
+# This message includes information of dynamixel's basic parameter
 
 DynamixelLoadInfo load_info
 

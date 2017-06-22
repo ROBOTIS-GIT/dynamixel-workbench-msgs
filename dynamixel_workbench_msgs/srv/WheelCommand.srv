@@ -1,5 +1,4 @@
-# Server is dynamixel_workbench_tutorials and Client is dynamixel_workbench_controllers
-# This service sends motor velocity
+# This message is used to send velocity command to dynamixel
 
 float32 right_vel
 float32 left_vel

@@ -1,37 +1,39 @@
-# Published by dynamixel_workbench_single_manager and Subscribed by dynamixel_workbench_single_manager_gui
-# This message is compatible with control table of Dynamixel RX Series (RX-24F, RX-28, RX-64)
-# and it is linked to RX_24F.device, RX_28.device and RX_64.device in dynamixel_workbench_toolbox/dynamixel/models/RX folder
+# It is Published by 'single_dynamixel_monitor' node
+# It is Subscribed by 'dynamixel_workbench_single_manager_gui/qnode' node
+# This message is compatible with control table of Dynamixel RX Series (RX-10, RX-24F, RX-28, RX-64)
+# It is linked to 'RX_24F.device', 'RX_28.device' and 'RX_64.device' in dynamixel_workbench_toolbox/dynamixel/models/RX
 # If you want to specific information about control table, please follow the link (http://support.robotis.com/en/)
 
-int16 model_number
-int8 version_of_firmware
-int8 id
-int8 baud_rate
-int8 return_delay_time
-int16 cw_angle_limit
-int16 ccw_angle_limit
-int8 the_highest_limit_temperature
-int8 the_lowest_limit_voltage
-int8 the_highest_limit_voltage
-int16 max_torque
-int8 status_return_level
-int8 alarm_led
-int8 alarm_shutdown
-int8 torque_enable
-int8 led
-int8 cw_compliance_margin
-int8 ccw_compliance_margin
-int8 cw_compliance_slope
-int8 ccw_compliance_slope
-int16 goal_position
-int16 moving_speed
-int16 torque_limit
-int16 present_position
-int16 present_velocity
-int16 present_load
-int8 present_voltage
-int8 present_temperature
-int8 registered
-int8 moving
-int8 lock
-int16 punch
+uint16 model_number
+uint8  version_of_firmware
+uint8  id
+uint8  baud_rate
+uint8  return_delay_time
+uint16 cw_angle_limit
+uint16 ccw_angle_limit
+uint8  the_highest_limit_temperature
+uint8  the_lowest_limit_voltage
+uint8  the_highest_limit_voltage
+uint16 max_torque
+uint8  status_return_level
+uint8  alarm_led
+uint8  alarm_shutdown
+
+uint8  torque_enable
+uint8  led
+uint8  cw_compliance_margin
+uint8  ccw_compliance_margin
+uint8  cw_compliance_slope
+uint8  ccw_compliance_slope
+uint16 goal_position
+uint16 moving_speed
+uint16 torque_limit
+uint16 present_position
+uint16 present_speed
+uint16 present_load
+uint8  present_voltage
+uint8  present_temperature
+uint8  registered
+uint8  moving
+uint8  lock
+uint16 punch

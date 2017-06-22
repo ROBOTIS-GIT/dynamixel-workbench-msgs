@@ -1,6 +1,7 @@
-# Published by dynamixel_workbench_single_manager and Subscribed by dynamixel_workbench_single_manager_gui
-# This message is compatible with control table of Dynamixel AX Series (AX-12A, AX-12W, AX-18A)
-# and it is linked to AX_12A.device, AX_12W.device and AX_18A.device in dynamixel_workbench_toolbox/dynamixel/models/AX folder
+# It is Published by 'single_dynamixel_monitor' node
+# It is Subscribed by 'dynamixel_workbench_single_manager_gui/qnode' node
+# This message is compatible with control table of Dynamixel AX Series (AX-12W, AX-12/AX-12+/AX-12A, AX-18F/AX-18A)
+# It is linked to 'AX_12A.device', 'AX_12W.device' and 'AX_18A.device' in dynamixel_workbench_toolbox/dynamixel/models/AX
 # If you want to specific information about control table, please follow the link (http://support.robotis.com/en/)
 
 uint16 model_number
@@ -27,7 +28,7 @@ uint16 goal_position
 uint16 moving_speed
 uint16 torque_limit
 uint16 present_position
-uint16 present_velocity
+uint16 present_speed
 uint16 present_load
 uint8  present_voltage
 uint8  present_temperature

@@ -1,39 +1,41 @@
-# Published by dynamixel_workbench_single_manager and Subscribed by dynamixel_workbench_single_manager_gui
+# It is Published by 'single_dynamixel_monitor' node
+# It is Subscribed by 'dynamixel_workbench_single_manager_gui/qnode' node
 # This message is compatible with control table of Dynamixel EX Series (EX-106+)
-# and it is linked to EX_106.device in dynamixel_workbench_toolbox/dynamixel/EX folder
+# It is linked to 'EX_106.device' in dynamixel_workbench_toolbox/dynamixel/models/EX
 # If you want to specific information about control table, please follow the link (http://support.robotis.com/en/)
 
-int64 model_number
-int64 version_of_firmware
-int8 id
-int64 baud_rate
-int64 return_delay_time
-int64 cw_angle_limit
-int64 ccw_angle_limit
-int64 drive_mode
-int64 the_highest_limit_temperature
-int64 the_lowest_limit_voltage
-int64 the_highest_limit_voltage
-int64 max_torque
-int64 status_return_level
-int64 alarm_led
-int64 alarm_shutdown
-bool torque_enable
-bool led
-int64 cw_compliance_margin
-int64 ccw_compliance_margin
-int64 cw_compliance_slope
-int64 ccw_compliance_slope
-int64 goal_position
-int64 moving_speed
-int64 torque_limit
-int64 present_position
-int64 present_velocity
-int64 present_load
-int64 present_voltage
-int64 present_temperature
-bool registered
-bool moving
-bool lock
-int64 punch
-int64 sensed_current
+uint16 model_number
+uint8 version_of_firmware
+uint8 id
+uint8 baud_rate
+uint8 return_delay_time
+uint16 cw_angle_limit
+uint16 ccw_angle_limit
+uint8 drive_mode
+uint8 the_highest_limit_temperature
+uint8 the_lowest_limit_voltage
+uint8 the_highest_limit_voltage
+uint16 max_torque
+uint8 status_return_level
+uint8 alarm_led
+uint8 alarm_shutdown
+
+uint8 torque_enable
+uint8 led
+uint8 cw_compliance_margin
+uint8 ccw_compliance_margin
+uint8 cw_compliance_slope
+uint8 ccw_compliance_slope
+uint16 goal_position
+uint16 moving_speed
+uint16 torque_limit
+uint16 present_position
+uint16 present_velocity
+uint16 present_load
+uint8 present_voltage
+uint8 present_temperature
+uint8 registered
+uint8 moving
+uint8 lock
+uint16 punch
+uint16 sensed_current

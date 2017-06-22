@@ -1,5 +1,4 @@
-# Server is dynamixel_workbench_tutorials and Client is dynamixel_workbench_controllers
-# This service sends motor position with different unit (radian and raw value)
+# This message is used to send position command to dynamixel
 
 string unit
 float32 pan_pos

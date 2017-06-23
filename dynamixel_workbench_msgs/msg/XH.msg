@@ -13,7 +13,7 @@ uint8  drive_mode
 uint8  operating_mode
 uint8  secondary_id
 uint8  protocol_version
-uint32 homing_offset
+int32 homing_offset
 uint32 moving_threshold
 uint8  temperature_limit
 uint16 max_voltage_limit

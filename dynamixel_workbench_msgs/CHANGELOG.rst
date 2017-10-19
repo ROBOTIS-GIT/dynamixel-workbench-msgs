@@ -2,6 +2,12 @@
 Changelog for package dynamixel_workbench_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.1.6 (2017-10-19)
+-----------
+* modified for independent package
+* added dynamixel new model: XL, XM, XH, PRO
+* Contributors: Darby Lim
+
 0.1.5 (2017-05-23)
 -----------
 * modified the cmake of toolbox

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>dynamixel_workbench_msgs</name>
-  <version>0.1.5</version>
+  <version>0.1.6</version>
   <description>
     dynamixel_workbench_msgs package
     This package includes ROS messages and services for dynamixel-workbench packages</description>

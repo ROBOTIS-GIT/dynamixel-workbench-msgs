@@ -1,7 +1,4 @@
-# It is Published by 'single_dynamixel_monitor' node
-# It is Subscribed by 'dynamixel_workbench_single_manager_gui/qnode' node
-# This message is compatible with control table of Dynamixel XM Series (XM430-W210-T/R, XM430-W350-T/R)
-# It is linked to 'XM430_W210.device' and 'XM430_W350.device' in dynamixel_workbench_toolbox/dynamixel/models/XM
+# This message is compatible with control table of Dynamixel XM Series (XM430-W210, XM430-W350)
 # If you want to specific information about control table, please follow the link (http://support.robotis.com/en/)
 
 uint16 Model_Number

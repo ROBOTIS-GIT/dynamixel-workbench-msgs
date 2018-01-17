@@ -1,8 +1,5 @@
-# It is Published by 'single_dynamixel_monitor' node
-# It is Subscribed by 'dynamixel_workbench_single_manager_gui/qnode' node
-# This message is compatible with control table of Dynamixel XH Series (XH430-W210-T/R, XH430-W350-T/R, XH430-V210, XH430-V350)
-# It is linked to 'XH430_W210.device', 'XH430_W350.device', 'XH430_V210.device' and 'XH430_V350.device' in dynamixel_workbench_toolbox/dynamixel/models/XH
-# If you want to specific information about control table, please follow the link (http://support.robotis.com/en/)
+# This message is compatible with control table of Dynamixel XH Series (XH430-W210, XH430-W350, XH430-V210, XH430-V350)
+# If you want to specific information about control table, please follow the link (http://emanual.robotis.com/)
 
 uint16 Model_Number
 uint8  Firmware_Version

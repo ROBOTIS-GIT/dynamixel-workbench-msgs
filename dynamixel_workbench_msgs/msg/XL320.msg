@@ -1,3 +1,6 @@
+# This message is compatible with control table of Dynamixel XL Series (XL320)
+# If you want to specific information about control table, please follow the link (http://emanual.robotis.com/)
+
 uint16 Model_Number
 uint8  Firmware_Version
 uint8  ID

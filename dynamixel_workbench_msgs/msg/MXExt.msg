@@ -1,8 +1,5 @@
-# It is Published by 'single_dynamixel_monitor' node
-# It is Subscribed by 'dynamixel_workbench_single_manager_gui/qnode' node
-# This message is compatible with control table of Dynamixel MX Series (MX-12W, MX-28T/MX-28R/MX-28AT/MX-28AR, MX-64T/MX64-R/MX-64AT/MX-64AR, MX-106T/MX-106R)
-# It is linked to 'MX_12W.device', 'MX_28.device', 'MX_64.device' and 'MX_106.device' in dynamixel_workbench_toolbox/dynamixel/models/MX
-# If you want to specific information about control table, please follow the link (http://support.robotis.com/en/)
+# This message is compatible with control table of Dynamixel MX Series (MX-64T/MX64-R/MX-64AT/MX-64AR, MX-106T/MX-106R)
+# If you want to specific information about control table, please follow the link (http://emanual.robotis.com/)
 
 uint16 Model_Number
 uint8  Firmware_Version

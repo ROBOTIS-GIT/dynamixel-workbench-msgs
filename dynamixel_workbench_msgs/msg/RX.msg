@@ -1,8 +1,5 @@
-# It is Published by 'single_dynamixel_monitor' node
-# It is Subscribed by 'dynamixel_workbench_single_manager_gui/qnode' node
 # This message is compatible with control table of Dynamixel RX Series (RX-10, RX-24F, RX-28, RX-64)
-# It is linked to 'RX_24F.device', 'RX_28.device' and 'RX_64.device' in dynamixel_workbench_toolbox/dynamixel/models/RX
-# If you want to specific information about control table, please follow the link (http://support.robotis.com/en/)
+# If you want to specific information about control table, please follow the link (http://emanual.robotis.com/)
 
 uint16 Model_Number
 uint8  Firmware_Version

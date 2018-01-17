@@ -1,3 +1,6 @@
+# This message is compatible with control table of Dynamixel XM Series (XM540-W150, XM540-W270)
+# If you want to specific information about control table, please follow the link (http://support.robotis.com/en/)
+
 uint16 Model_Number
 uint8  Firmware_Version
 uint8  ID

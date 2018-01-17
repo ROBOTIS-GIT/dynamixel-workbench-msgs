@@ -1,7 +1,7 @@
 # It is Published by 'single_dynamixel_monitor' node
 # It is Subscribed by 'dynamixel_workbench_single_manager_gui/qnode' node
-# This message is compatible with control table of Dynamixel XL Series (XL430-W250)
-# It is linked to 'XL430_W250.device' in dynamixel_workbench_toolbox/dynamixel/models/XL
+# This message is compatible with control table of Dynamixel MX Series (MX-12W, MX-28T/MX-28R/MX-28AT/MX-28AR, MX-64T/MX64-R/MX-64AT/MX-64AR, MX-106T/MX-106R)
+# It is linked to 'MX_12W.device', 'MX_28.device', 'MX_64.device' and 'MX_106.device' in dynamixel_workbench_toolbox/dynamixel/models/MX
 # If you want to specific information about control table, please follow the link (http://support.robotis.com/en/)
 
 uint16 Model_Number
@@ -19,6 +19,7 @@ uint8  Temperature_Limit
 uint16 Max_Voltage_Limit
 uint16 Min_Voltage_Limit
 uint16 PWM_Limit
+uint16 Current_Limit
 uint32 Acceleration_Limit
 uint32 Velocity_Limit
 uint32 Max_Position_Limit
@@ -39,6 +40,7 @@ uint16 Feedforward_2nd_Gain
 uint16 Feedforward_1st_Gain
 uint8  Bus_Watchdog
 int16  Goal_PWM
+int16  Goal_Current
 int32  Goal_Velocity
 uint32 Profile_Acceleration
 uint32 Profile_Velocity
@@ -47,11 +49,10 @@ uint16 Realtime_Tick
 uint8  Moving
 uint8  Moving_Status
 int16  Present_PWM
-int16  Present_Load
+int16  Present_Current
 int32  Present_Velocity
 int32  Present_Position
 uint32 Velocity_Trajectory
 uint32 Position_Trajectory
 uint16 Present_Input_Voltage
 uint8  Present_Temperature
-

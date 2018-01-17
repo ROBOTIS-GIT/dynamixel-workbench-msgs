@@ -1,7 +1,7 @@
 # It is Published by 'single_dynamixel_monitor' node
 # It is Subscribed by 'dynamixel_workbench_single_manager_gui/qnode' node
-# This message is compatible with control table of Dynamixel EX Series (EX-106+)
-# It is linked to 'EX_106.device' in dynamixel_workbench_toolbox/dynamixel/models/EX
+# This message is compatible with control table of Dynamixel MX Series (MX-12W, MX-28T/MX-28R/MX-28AT/MX-28AR, MX-64T/MX64-R/MX-64AT/MX-64AR, MX-106T/MX-106R)
+# It is linked to 'MX_12W.device', 'MX_28.device', 'MX_64.device' and 'MX_106.device' in dynamixel_workbench_toolbox/dynamixel/models/MX
 # If you want to specific information about control table, please follow the link (http://support.robotis.com/en/)
 
 uint16 Model_Number
@@ -11,7 +11,6 @@ uint8  Baud_Rate
 uint8  Return_Delay_Time
 uint16 CW_Angle_Limit
 uint16 CCW_Angle_Limit
-uint8  Drive_Mode
 uint8  Temperature_Limit
 uint8  Min_Voltage_Limit
 uint8  Max_Voltage_Limit
@@ -19,13 +18,14 @@ uint16 Max_Torque
 uint8  Status_Return_Level
 uint8  Alarm_LED
 uint8  Shutdown
+uint16 Multi_Turn_Offset
+uint8  Resolution_Divider
 
 uint8  Torque_Enable
 uint8  LED
-uint8  CW_Compliance_Margin
-uint8  CCW_Compliance_Margin
-uint8  CW_Compliance_Slope
-uint8  CCW_Compliance_Slope
+uint8  D_gain
+uint8  I_gain
+uint8  P_gain
 uint16 Goal_Position
 uint16 Moving_Speed
 uint16 Torque_Limit
@@ -38,4 +38,7 @@ uint8  Registered
 uint8  Moving
 uint8  Lock
 uint16 Punch
-uint16 Sensored_Current
+uint16 Current
+uint8  Torque_Control_Mode_Enable
+uint16 Goal_Torque
+uint8  Goal_Acceleration

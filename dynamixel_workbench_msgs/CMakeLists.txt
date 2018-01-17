@@ -17,13 +17,18 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(
   FILES
   AX.msg
-  RX.msg
-  MX.msg
   EX.msg
-  XL.msg
-  XM.msg
-  XH.msg
+  MX.msg
+  MX2.msg
+  MX2Ext.msg
+  MXExt.msg
   PRO.msg
+  RX.msg
+  XH.msg
+  XL.msg
+  XL320.msg
+  XM.msg
+  XMExt.msg
 
   DynamixelState.msg
   DynamixelStateList.msg

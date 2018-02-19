@@ -9,6 +9,7 @@ project(dynamixel_workbench_msgs)
 ################################################################################
 find_package(catkin REQUIRED COMPONENTS
   message_generation
+  std_msgs
 )
 
 ################################################################################
@@ -45,7 +46,7 @@ add_service_files(
 )
 
 generate_messages(
-  DEPENDENCIES
+  DEPENDENCIES std_msgs
 )
 
 ################################################################################
@@ -56,15 +57,13 @@ generate_messages(
 # Catkin specific configuration
 ################################################################################
 catkin_package(
-   CATKIN_DEPENDS message_generation
+   CATKIN_DEPENDS message_runtime std_msgs
 )
 
 ################################################################################
 # Build
 ################################################################################
-include_directories(
-  ${catkin_INCLUDE_DIRS}
-)
+
 
 ################################################################################
 # Install

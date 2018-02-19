@@ -1,5 +1,5 @@
-# This message is compatible with control table of Dynamixel XM Series (XM430-W210, XM430-W350)
-# If you want to specific information about control table, please follow the link (http://support.robotis.com/en/)
+# This message is compatible with control table of Dynamixel MX(2.0) Series (MX-12W(2.0), MX-28T/MX-28R/MX-28AT/MX-28AR(2.0))
+# If you want to specific information about control table, please follow the link (http://emanual.robotis.com/)
 
 uint16 Model_Number
 uint8  Firmware_Version
@@ -16,7 +16,6 @@ uint8  Temperature_Limit
 uint16 Max_Voltage_Limit
 uint16 Min_Voltage_Limit
 uint16 PWM_Limit
-uint16 Current_Limit
 uint32 Acceleration_Limit
 uint32 Velocity_Limit
 uint32 Max_Position_Limit
@@ -37,7 +36,6 @@ uint16 Feedforward_2nd_Gain
 uint16 Feedforward_1st_Gain
 uint8  Bus_Watchdog
 int16  Goal_PWM
-int16  Goal_Current
 int32  Goal_Velocity
 uint32 Profile_Acceleration
 uint32 Profile_Velocity
@@ -47,10 +45,10 @@ uint8  Moving
 uint8  Moving_Status
 int16  Present_PWM
 int16  Present_Load
-int16  Present_Current
 int32  Present_Velocity
 int32  Present_Position
 uint32 Velocity_Trajectory
 uint32 Position_Trajectory
 uint16 Present_Input_Voltage
 uint8  Present_Temperature
+

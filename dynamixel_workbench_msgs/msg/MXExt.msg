@@ -1,4 +1,4 @@
-# This message is compatible with control table of Dynamixel MX Series (MX-12W, MX-28T/MX-28R/MX-28AT/MX-28AR)
+# This message is compatible with control table of Dynamixel MX Series (MX-64T/MX64-R/MX-64AT/MX-64AR, MX-106T/MX-106R)
 # If you want to specific information about control table, please follow the link (http://emanual.robotis.com/)
 
 uint16 Model_Number
@@ -35,4 +35,7 @@ uint8  Registered
 uint8  Moving
 uint8  Lock
 uint16 Punch
+uint16 Current
+uint8  Torque_Control_Mode_Enable
+uint16 Goal_Torque
 uint8  Goal_Acceleration

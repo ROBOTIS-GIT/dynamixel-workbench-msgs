@@ -1,8 +1,7 @@
 # This message is used to send position command to dynamixel
 
 string unit
-float32 pan_pos
-float32 tilt_pos
+uint8 id
+float32 goal_position
 ---
-float32 pan_pos
-float32 tilt_pos
+bool result

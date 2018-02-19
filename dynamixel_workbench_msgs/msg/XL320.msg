@@ -1,4 +1,4 @@
-# This message is compatible with control table of Dynamixel MX Series (MX-12W, MX-28T/MX-28R/MX-28AT/MX-28AR)
+# This message is compatible with control table of Dynamixel XL Series (XL320)
 # If you want to specific information about control table, please follow the link (http://emanual.robotis.com/)
 
 uint16 Model_Number
@@ -8,15 +8,13 @@ uint8  Baud_Rate
 uint8  Return_Delay_Time
 uint16 CW_Angle_Limit
 uint16 CCW_Angle_Limit
+uint8  Control_Mode
 uint8  Temperature_Limit
 uint8  Min_Voltage_Limit
 uint8  Max_Voltage_Limit
 uint16 Max_Torque
 uint8  Status_Return_Level
-uint8  Alarm_LED
 uint8  Shutdown
-uint16 Multi_Turn_Offset
-uint8  Resolution_Divider
 
 uint8  Torque_Enable
 uint8  LED
@@ -33,6 +31,5 @@ uint8  Present_Voltage
 uint8  Present_Temperature
 uint8  Registered
 uint8  Moving
-uint8  Lock
+uint8  Hardware_Error_Status
 uint16 Punch
-uint8  Goal_Acceleration

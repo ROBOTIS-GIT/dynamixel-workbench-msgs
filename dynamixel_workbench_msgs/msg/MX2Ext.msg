@@ -1,5 +1,5 @@
-# This message is compatible with control table of Dynamixel XM Series (XM430-W210, XM430-W350)
-# If you want to specific information about control table, please follow the link (http://support.robotis.com/en/)
+# This message is compatible with control table of Dynamixel MX(2.0) Series (MX-64T/MX64-R/MX-64AT/MX-64AR(2.0), MX-106T/MX-106R(2.0))
+# If you want to specific information about control table, please follow the link (http://emanual.robotis.com/)
 
 uint16 Model_Number
 uint8  Firmware_Version
@@ -46,7 +46,6 @@ uint16 Realtime_Tick
 uint8  Moving
 uint8  Moving_Status
 int16  Present_PWM
-int16  Present_Load
 int16  Present_Current
 int32  Present_Velocity
 int32  Present_Position

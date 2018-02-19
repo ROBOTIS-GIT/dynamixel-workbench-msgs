@@ -1,4 +1,4 @@
-# This message is compatible with control table of Dynamixel XM Series (XM430-W210, XM430-W350)
+# This message is compatible with control table of Dynamixel XM Series (XM540-W150, XM540-W270)
 # If you want to specific information about control table, please follow the link (http://support.robotis.com/en/)
 
 uint16 Model_Number
@@ -21,6 +21,9 @@ uint32 Acceleration_Limit
 uint32 Velocity_Limit
 uint32 Max_Position_Limit
 uint32 Min_Position_Limit
+uint8  External_Port_Mode_1
+uint8  External_Port_Mode_2
+uint8  External_Port_Mode_3
 uint8  Shutdown
 
 uint8  Torque_Enable
@@ -46,7 +49,6 @@ uint16 Realtime_Tick
 uint8  Moving
 uint8  Moving_Status
 int16  Present_PWM
-int16  Present_Load
 int16  Present_Current
 int32  Present_Velocity
 int32  Present_Position

@@ -2,6 +2,14 @@
 Changelog for package dynamixel_workbench_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.1.7 (2018-02-19)
+-----------
+* modified description
+* modified msg and srv files
+* modified package config
+* changed license
+* Contributors: Darby Lim
+
 0.1.6 (2017-10-19)
 -----------
 * modified for independent package

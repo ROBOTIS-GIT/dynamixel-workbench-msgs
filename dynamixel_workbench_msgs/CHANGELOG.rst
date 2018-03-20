@@ -2,8 +2,14 @@
 Changelog for package dynamixel_workbench_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.0 (2018-03-20)
+------------------
+* changed package.xml to format v2
+* created .travis.yml
+* Contributors: Pyo
+
 0.1.7 (2018-02-19)
------------
+------------------
 * modified description
 * modified msg and srv files
 * modified package config
@@ -11,36 +17,36 @@ Changelog for package dynamixel_workbench_msgs
 * Contributors: Darby Lim
 
 0.1.6 (2017-10-19)
------------
+------------------
 * modified for independent package
 * added dynamixel new model: XL, XM, XH, PRO
 * Contributors: Darby Lim
 
 0.1.5 (2017-05-23)
------------
+------------------
 * modified the cmake of toolbox
 * Contributors: Darby Lim
 
 0.1.4 (2017-04-24)
------------
+------------------
 * added dynamixel new model: XL430_W250
 * added dynamixel new model: XH
 * Contributors: Darby Lim
 
 0.1.3 (2016-11-29)
------------
+------------------
 * add drive_mode in XM series
 * modified msgs files
 * Contributors: Darby Lim
 
 0.1.2 (2016-10-31)
------------
+------------------
 * add comment in msgs file
 * modify beta test feedback
 * Contributors: Darby Lim
 
 0.1.1 (2016-10-21)
------------
+------------------
 * Revert "add baudrate combobox and modify velocity controller"
   This reverts commit f4f83761d687c40660a2c864aa4fcbebe1df4ea4.
 * add baudrate combobox and modify velocity controller

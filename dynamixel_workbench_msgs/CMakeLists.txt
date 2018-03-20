@@ -1,16 +1,20 @@
 ################################################################################
-# CMake
+# Set minimum required version of cmake, project name and compile options
 ################################################################################
 cmake_minimum_required(VERSION 2.8.3)
 project(dynamixel_workbench_msgs)
 
 ################################################################################
-# Packages
+# Find catkin packages and libraries for catkin and system dependencies
 ################################################################################
 find_package(catkin REQUIRED COMPONENTS
-  message_generation
   std_msgs
+  message_generation
 )
+
+################################################################################
+# Setup for python modules and scripts
+################################################################################
 
 ################################################################################
 # Declare ROS messages, services and actions
@@ -30,7 +34,6 @@ add_message_files(
   XL320.msg
   XM.msg
   XMExt.msg
-
   DynamixelState.msg
   DynamixelStateList.msg
   DynamixelInfo.msg
@@ -54,21 +57,19 @@ generate_messages(
 ################################################################################
 
 ################################################################################
-# Catkin specific configuration
+# Declare catkin specific configuration to be passed to dependent projects
 ################################################################################
 catkin_package(
-   CATKIN_DEPENDS message_runtime std_msgs
+   CATKIN_DEPENDS std_msgs message_runtime
 )
 
 ################################################################################
 # Build
 ################################################################################
 
-
 ################################################################################
 # Install
 ################################################################################
-
 
 ################################################################################
 # Test

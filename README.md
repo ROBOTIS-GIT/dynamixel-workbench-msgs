@@ -3,7 +3,7 @@
 
 # Documents for dynamixel_workbench_msgs package
 - [ROBOTIS e-Manual](http://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_workbench/#package-description)
-- http://wiki.ros.org/dynamixel-workbench-msgs
+- http://wiki.ros.org/dynamixel_workbench_msgs
 
 # ROS packages related to Dynamixel Workbench
 - [dynamixel_sdk](https://github.com/ROBOTIS-GIT/DynamixelSDK)

@@ -1,5 +1,5 @@
 # Dynamixel Workbench Messsages Package
-|[![GitHub version](https://badge.fury.io/gh/ROBOTIS-GIT%2Fdynamixel-workbench-msgs.svg)](https://badge.fury.io/gh/ROBOTIS-GIT%2Fdynamixel-workbench-msgs) [![Build Status](https://travis-ci.org/ROBOTIS-GIT/dynamixel-workbench-msgs.svg?branch=master)](https://travis-ci.org/ROBOTIS-GIT/dynamixel-workbench-msgs)
+[![GitHub version](https://badge.fury.io/gh/ROBOTIS-GIT%2Fdynamixel-workbench-msgs.svg)](https://badge.fury.io/gh/ROBOTIS-GIT%2Fdynamixel-workbench-msgs) [![Build Status](https://travis-ci.org/ROBOTIS-GIT/dynamixel-workbench-msgs.svg?branch=master)](https://travis-ci.org/ROBOTIS-GIT/dynamixel-workbench-msgs)
 
 # Documents for dynamixel_workbench_msgs package
 - [ROBOTIS e-Manual](http://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_workbench/#package-description)

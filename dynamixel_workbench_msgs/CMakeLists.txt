@@ -28,6 +28,7 @@ add_message_files(
   MX2Ext.msg
   MXExt.msg
   PRO.msg
+  PROExt.msg
   RX.msg
   XH.msg
   XL.msg

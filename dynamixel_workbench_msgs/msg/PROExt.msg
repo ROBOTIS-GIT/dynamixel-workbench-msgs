@@ -1,4 +1,7 @@
-# This message is compatible with control table of Dynamixel PRO L42-10-S300-R
+# This message is compatible with control table of Dynamixel PRO Series
+# (L54-30-S500-R, L54-30-S400-R,  L54-50-S500-R, L54-50-S290-R,
+#  M42-10-S260-R, M54-40-S250-R,  M54-60-S250-R,
+#  H42-20-S300-R, H54-100-S500-R, H54-200-S500-R)
 # If you want to specific information about control table, please follow the link (http://emanual.robotis.com/)
 
 uint16 Model_Number
@@ -7,6 +10,7 @@ uint8  ID
 uint8  Baud_Rate
 uint8  Return_Delay_Time
 uint8  Operating_Mode
+int32  Homing_Offset
 uint32 Moving_Threshold
 uint8  Temperature_Limit
 uint16 Max_Voltage_Limit

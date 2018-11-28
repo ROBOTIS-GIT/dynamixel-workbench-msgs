@@ -3,7 +3,9 @@
 string name
 uint8  id
 
-int16  present_current
-int32  present_velocity
 int32  present_position
+int32  present_velocity
+int16  present_current
+
+
 

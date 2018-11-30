@@ -2,6 +2,12 @@
 Changelog for package dynamixel_workbench_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.0.0 (2018-07-19)
+------------------
+* add PROext msgs
+* delete homing offset var
+* Contributors: Darby Lim
+
 0.2.0 (2018-03-20)
 ------------------
 * changed package.xml to format v2

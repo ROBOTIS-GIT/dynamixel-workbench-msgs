@@ -43,8 +43,6 @@ add_message_files(
 
 add_service_files(
   FILES
-  JointCommand.srv
-  WheelCommand.srv
   GetDynamixelInfo.srv
   DynamixelCommand.srv
 )

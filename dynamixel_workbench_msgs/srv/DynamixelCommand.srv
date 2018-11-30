@@ -3,8 +3,9 @@
 
 string command
 
+uint8 id
 string addr_name
-int64 value
+int32 value
 
 ---
 

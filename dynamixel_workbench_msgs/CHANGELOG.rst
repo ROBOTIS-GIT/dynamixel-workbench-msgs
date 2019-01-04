@@ -2,10 +2,16 @@
 Changelog for package dynamixel_workbench_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.0.0 (2018-11-30)
+------------------
+* deleted unused msg and srv
+* modified for dynamixel-workbench 2.0.0
+* Contributors: Darby Lim
+
 1.0.0 (2018-07-19)
 ------------------
-* add PROext msgs
-* delete homing offset var
+* added PROext msgs
+* deleted homing offset var
 * Contributors: Darby Lim
 
 0.2.0 (2018-03-20)

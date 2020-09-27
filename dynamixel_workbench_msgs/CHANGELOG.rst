@@ -2,6 +2,11 @@
 Changelog for package dynamixel_workbench_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.0.1 (2020-09-27)
+------------------
+* Updated the package info only
+* Contributors: Will Son
+
 2.0.0 (2018-11-30)
 ------------------
 * deleted unused msg and srv

@@ -1,10 +1,9 @@
 # Dynamixel Workbench
 ![](https://github.com/ROBOTIS-GIT/emanual/blob/master/assets/images/sw/dynamixel/dynamixel_workbench/DYNAMIXEL_WORKBENCH_LOGO.png)
 
-## ROS Package for Dynamixel Workbench Messages
-|Version|Kinetic + Ubuntu Xenial|Melodic + Ubuntu Bionic|
-|:---:|:---:|:---:|
-|[![GitHub version](https://badge.fury.io/gh/ROBOTIS-GIT%2Fdynamixel-workbench-msgs.svg)](https://badge.fury.io/gh/ROBOTIS-GIT%2Fdynamixel-workbench-msgs)|[![Build Status](https://travis-ci.org/ROBOTIS-GIT/dynamixel-workbench-msgs.svg?branch=kinetic-devel)](https://travis-ci.org/ROBOTIS-GIT/dynamixel-workbench-msgs)|[![Build Status](https://travis-ci.org/ROBOTIS-GIT/dynamixel-workbench-msgs.svg?branch=melodic-devel)](https://travis-ci.org/ROBOTIS-GIT/dynamixel-workbench-msgs)|
+[![kinetic-devel Status](https://github.com/ROBOTIS-GIT/dynamixel_workbench_msgs/workflows/kinetic-devel/badge.svg)](https://github.com/ROBOTIS-GIT/dynamixel_workbench_msgs/tree/kinetic-devel)
+[![melodic-devel Status](https://github.com/ROBOTIS-GIT/dynamixel_workbench_msgs/workflows/melodic-devel/badge.svg)](https://github.com/ROBOTIS-GIT/dynamixel_workbench_msgs/tree/melodic-devel)
+[![noetic-devel Status](https://github.com/ROBOTIS-GIT/dynamixel_workbench_msgs/workflows/noetic-devel/badge.svg)](https://github.com/ROBOTIS-GIT/dynamixel_workbench_msgs/tree/noetic-devel)
 
 ## ROBOTIS e-Manual for Dynamixel Workbench
 - [ROBOTIS e-Manual for Dynamixel Workbench](http://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_workbench/)

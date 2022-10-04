@@ -52,6 +52,6 @@ jobs:
       - name: Build and Test
         uses: ros-tooling/action-ros-ci@0.2.5
         with:
-          package-name: turtlebot3_msgs
+          package-name: dynamixel-workbench-msgs
           target-ros2-distro: ${{ matrix.ros_distribution }}
           vcs-repo-file-url: ""

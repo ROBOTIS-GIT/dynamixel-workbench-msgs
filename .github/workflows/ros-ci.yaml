@@ -9,49 +9,26 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  ros2:
+  test_ros2:
+    name: "Build Test DYNAMIXEL Workbench msgs package"
     runs-on: ubuntu-latest
+    needs: pre_condition
     strategy:
       fail-fast: false
       matrix:
-        ros_distribution:
-          - foxy
-          - galactic
-          - humble
-          - rolling
-        include:
-            # Foxy Fitzroy (June 2020 - May 2023)
-          - docker_image: ubuntu:focal
-            ros_distribution: foxy
-            ros_version: 2
-            # Galactic Geochelone (May 2021)
-          - docker_image: ubuntu:focal
-            ros_distribution: galactic
-            ros_version: 2
-            # Humble Hawksbill (May 2027)
-          - docker_image: ubuntu:jammy
-            ros_distribution: humble
-            ros_version: 2
-            # Rolling
-          - docker_image: ubuntu:jammy
-            ros_distribution: rolling
-            ros_version: 2
-    container:
-      image: ${{ matrix.docker_image }}
+        ros_distribution: [foxy, galactic, humble]
     steps:
-      - name: Setup directories
-        run: mkdir -p ros_ws/src
-      - name: checkout
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3.5.0
         with:
-          path: ros_ws/src
-      - name: Setup ROS environment
-        uses: ros-tooling/setup-ros@0.3.3
+          node-version: "12.x"
+      - run: .github/workflows/build-and-test.sh
+      - uses: ros-tooling/setup-ros@master
         with:
           required-ros-distributions: ${{ matrix.ros_distribution }}
-      - name: Build and Test
-        uses: ros-tooling/action-ros-ci@0.2.5
+      - uses: ./
+        id: test_all_packages_in_repo
+        name: "Test all packages in single repo, default options"
         with:
-          package-name: dynamixel-workbench-msgs
           target-ros2-distro: ${{ matrix.ros_distribution }}
-          vcs-repo-file-url: "https://raw.githubusercontent.com/ROBOTIS-GIT/dynamixel-workbench-msgs/ros2-devel/.github/workflows/dynamixel-workbench-msgs.repos"
+          vcs-repo-file-url: "${{ github.workspace }}/.github/workflows/dynamixel-workbench-msgs.repos"

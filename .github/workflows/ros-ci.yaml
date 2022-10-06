@@ -9,27 +9,46 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  test_ros2:
-    name: "Build Test DYNAMIXEL Workbench msgs package"
+  ros2-ci:
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
       matrix:
-        ros_distribution: [foxy, galactic, humble]
+        ros_distribution:
+          - foxy
+          - galactic
+          - humble
+          - rolling
+        include:
+            # Foxy Fitzroy (June 2020 - May 2023)
+          - docker_image: rostooling/setup-ros-docker:ubuntu-focal-ros-foxy-ros-base-latest
+            ros_distribution: foxy
+            ros_version: 2
+            # Galactic Geochelone (May 2021)
+          - docker_image: rostooling/setup-ros-docker:ubuntu-focal-ros-galactic-ros-base-latest
+            ros_distribution: galactic
+            ros_version: 2
+            # Humble Hawksbill (May 2027)
+          - docker_image: rostooling/setup-ros-docker:ubuntu-jammy-ros-humble-ros-base-latest
+            ros_distribution: humble
+            ros_version: 2
+            # Rolling
+          - docker_image: rostooling/setup-ros-docker:ubuntu-jammy-ros-rolling-ros-base-latest
+            ros_distribution: rolling
+            ros_version: 2
+    container:
+      image: ${{ matrix.docker_image }}
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3.5.0
+      steps:
+      - name: Setup directories
+        run: mkdir -p ros_ws/src
+      - name: checkout
+        uses: actions/checkout@v2
         with:
-          node-version: "12.x"
-      - run: .github/workflows/build-and-test.sh
-      - uses: ros-tooling/setup-ros@master
+          path: ros_ws/src
+      - name: Build and Test
+        uses: ros-tooling/action-ros-ci@v0.2.2
         with:
-          required-ros-distributions: ${{ matrix.ros_distribution }}
-      - uses: ./
-        id: test_all_packages_in_repo
-        name: "Test all packages in single repo, default options"
-        with:
+          package-name: dynamixel_workbench_msgs
           target-ros2-distro: ${{ matrix.ros_distribution }}
-          vcs-repo-file-url: "${{ github.workspace }}/.github/workflows/dynamixel-workbench-msgs.repos"
-      - name: "Check that dynamixel_workbench_msgs install directory is present in default install space"
-        run: test -d "${{ steps.test_all_packages_in_repo.outputs.ros-workspace-directory-name }}/install/dynamixel_workbench_msgs"
+          vcs-repo-file-url: ""

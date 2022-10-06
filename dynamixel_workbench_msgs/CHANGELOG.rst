@@ -2,6 +2,11 @@
 Changelog for package dynamixel_workbench_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.0.3 (2022-10-06)
+------------------
+* release for ROS2
+* Contributors: Will Son
+
 2.0.0 (2018-11-30)
 ------------------
 * deleted unused msg and srv

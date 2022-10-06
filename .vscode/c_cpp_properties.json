@@ -1,0 +1,35 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/willson/robotis_ws/install/open_manipulator_x_libs/include/**",
+        "/home/willson/robotis_ws/install/robotis_manipulator/include/**",
+        "/home/willson/robotis_ws/install/open_manipulator_msgs/include/**",
+        "/home/willson/robotis_ws/install/gazebo_ros2_control/include/**",
+        "/home/willson/robotis_ws/install/dynamixel_workbench_toolbox/include/**",
+        "/home/willson/robotis_ws/install/dynamixel_workbench_msgs/include/**",
+        "/home/willson/turtlebot3_ws/install/turtlebot3_manipulation_hardware/include/**",
+        "/home/willson/turtlebot3_ws/install/dynamixel_workbench_msgs/include/**",
+        "/opt/ros/foxy/include/**",
+        "/home/willson/robotis_ws/src/dynamixel-workbench/dynamixel_workbench_toolbox/include/**",
+        "/home/willson/robotis_ws/src/gazebo_ros2_control/gazebo_ros2_control/include/**",
+        "/home/willson/robotis_ws/src/hls_lfcd_lds_driver/include/**",
+        "/home/willson/robotis_ws/src/open_manipulator/open_manipulator_x_controller/include/**",
+        "/home/willson/robotis_ws/src/open_manipulator/open_manipulator_x_libs/include/**",
+        "/home/willson/robotis_ws/src/robotis_manipulator/include/**",
+        "/home/willson/robotis_ws/src/turtlebot3/turtlebot3_node/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

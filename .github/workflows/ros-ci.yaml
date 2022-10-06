@@ -39,7 +39,6 @@ jobs:
     container:
       image: ${{ matrix.docker_image }}
     steps:
-      steps:
       - name: Setup directories
         run: mkdir -p ros_ws/src
       - name: checkout

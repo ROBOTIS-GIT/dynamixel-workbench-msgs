@@ -3,13 +3,13 @@
 
 ## ROS Package for Dynamixel Workbench Messages
 
-[![Kinetic Status](https://github.com/ROBOTIS-GIT/dynamixel_workbench/workflows/kinetic-devel/badge.svg)](https://github.com/ROBOTIS-GIT/dynamixel_workbench/tree/kinetic-devel)
-[![Melodic Status](https://github.com/ROBOTIS-GIT/dynamixel_workbench/workflows/melodic-devel/badge.svg)](https://github.com/ROBOTIS-GIT/dynamixel_workbench/tree/melodic-devel)
-[![Noetic Status](https://github.com/ROBOTIS-GIT/dynamixel_workbench/workflows/noetic-devel/badge.svg)](https://github.com/ROBOTIS-GIT/dynamixel_workbench/tree/noetic-devel)
+[![Kinetic Status](https://github.com/ROBOTIS-GIT/dynamixel-workbench-msgs/workflows/kinetic-devel/badge.svg)](https://github.com/ROBOTIS-GIT/dynamixel-workbench-msgs/tree/kinetic-devel)
+[![Melodic Status](https://github.com/ROBOTIS-GIT/dynamixel-workbench-msgs/workflows/melodic-devel/badge.svg)](https://github.com/ROBOTIS-GIT/dynamixel-workbench-msgs/tree/melodic-devel)
+[![Noetic Status](https://github.com/ROBOTIS-GIT/dynamixel-workbench-msgs/workflows/noetic-devel/badge.svg)](https://github.com/ROBOTIS-GIT/dynamixel-workbench-msgs/tree/noetic-devel)
 
-[![Foxy Status](https://github.com/ROBOTIS-GIT/dynamixel_workbench/workflows/foxy-devel/badge.svg)](https://github.com/ROBOTIS-GIT/dynamixel_workbench/tree/foxy-devel)
-[![Galactic Status](https://github.com/ROBOTIS-GIT/dynamixel_workbench/workflows/galactic-devel/badge.svg)](https://github.com/ROBOTIS-GIT/dynamixel_workbench/tree/galactic-devel)
-[![Humble Status](https://github.com/ROBOTIS-GIT/dynamixel_workbench/workflows/humble-devel/badge.svg)](https://github.com/ROBOTIS-GIT/dynamixel_workbench/tree/humble-devel)
+[![Foxy Status](https://github.com/ROBOTIS-GIT/dynamixel-workbench-msgs/workflows/foxy-devel/badge.svg)](https://github.com/ROBOTIS-GIT/dynamixel-workbench-msgs/tree/foxy-devel)
+[![Galactic Status](https://github.com/ROBOTIS-GIT/dynamixel-workbench-msgs/workflows/galactic-devel/badge.svg)](https://github.com/ROBOTIS-GIT/dynamixel-workbench-msgs/tree/galactic-devel)
+[![Humble Status](https://github.com/ROBOTIS-GIT/dynamixel-workbench-msgs/workflows/humble-devel/badge.svg)](https://github.com/ROBOTIS-GIT/dynamixel-workbench-msgs/tree/humble-devel)
 
 ## ROBOTIS e-Manual for Dynamixel Workbench
 - [ROBOTIS e-Manual for Dynamixel Workbench](http://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_workbench/)

@@ -1,15 +1,8 @@
 # Dynamixel Workbench
 ![](https://github.com/ROBOTIS-GIT/emanual/blob/master/assets/images/sw/dynamixel/dynamixel_workbench/DYNAMIXEL_WORKBENCH_LOGO.png)
 
-## ROS Package for Dynamixel Workbench Messages
-
-[![Kinetic Status](https://github.com/ROBOTIS-GIT/dynamixel-workbench-msgs/workflows/kinetic-devel/badge.svg)](https://github.com/ROBOTIS-GIT/dynamixel-workbench-msgs/tree/kinetic-devel)
-[![Melodic Status](https://github.com/ROBOTIS-GIT/dynamixel-workbench-msgs/workflows/melodic-devel/badge.svg)](https://github.com/ROBOTIS-GIT/dynamixel-workbench-msgs/tree/melodic-devel)
-[![Noetic Status](https://github.com/ROBOTIS-GIT/dynamixel-workbench-msgs/workflows/noetic-devel/badge.svg)](https://github.com/ROBOTIS-GIT/dynamixel-workbench-msgs/tree/noetic-devel)
-
-[![Foxy Status](https://github.com/ROBOTIS-GIT/dynamixel-workbench-msgs/workflows/foxy-devel/badge.svg)](https://github.com/ROBOTIS-GIT/dynamixel-workbench-msgs/tree/foxy-devel)
-[![Galactic Status](https://github.com/ROBOTIS-GIT/dynamixel-workbench-msgs/workflows/galactic-devel/badge.svg)](https://github.com/ROBOTIS-GIT/dynamixel-workbench-msgs/tree/galactic-devel)
-[![Humble Status](https://github.com/ROBOTIS-GIT/dynamixel-workbench-msgs/workflows/humble-devel/badge.svg)](https://github.com/ROBOTIS-GIT/dynamixel-workbench-msgs/tree/humble-devel)
+- Active Branches: noetic, humble, main
+- Legacy Branches: *-devel
 
 ## ROBOTIS e-Manual for Dynamixel Workbench
 - [ROBOTIS e-Manual for Dynamixel Workbench](http://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_workbench/)

@@ -2,9 +2,15 @@
 Changelog for package dynamixel_workbench_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.1.0 (2025-02-25)
+------------------
+* Added lint and CI for ROS 2 humble, jazzy and rolling
+* Modified the readme file for ROS 2 and changed feature
+* Contributors: Pyo
+
 2.0.3 (2022-10-06)
 ------------------
-* release for ROS2
+* release for ROS 2
 * Contributors: Will Son
 
 2.0.0 (2018-11-30)
